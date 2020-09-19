@@ -1,0 +1,1183 @@
+div, span, a{
+   color: #fff;
+}
+
+button{
+   cursor: pointer;
+}
+
+a{
+   outline: none;
+   text-decoration: none;
+}
+
+a img{
+   border: none;
+}
+
+input{
+   background: rgba(0,0,0,0);
+   border: 1px solid #aaa;
+   color: #fff;
+   font-family: Conv_Hattori_Hanzo;
+   font-size: 1.7em;
+   padding: 10px;
+}
+
+table{
+	background-color: white;
+}
+
+table th {
+   background-color: white;
+	padding: 1px;
+}
+
+table td {
+	background-color: white;
+	border-width: 0px;
+	opacity: 0.7;
+	padding: 1px;
+   text-align: center;
+}
+
+table#portfolio_table td div{
+   margin-top:20px;
+}
+
+td.transparent{
+   background:rgba(0,0,0,0);
+   opacity:1 !important;
+}
+
+.header_link{
+   font-size: 2em;
+   margin-right: 27px;
+}
+
+#logo_a{
+   left: 15px;
+   position: absolute;
+   top: -12px;
+}
+
+#logo_img{
+   margin: 58px 0 0 50px;
+   width: 150px; 
+}
+
+#header_div{
+   height: 101px;
+   position: fixed; 
+   width: 100%;
+   z-index:99;
+}
+
+#header_links_panel_div{
+   color: #fff;
+   float: right;  
+   margin: 56px 38px 0 0;
+}
+
+a.cupid-green{
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   background-color: #c6123d;
+   border-radius: 8px;
+   color:#fff;
+   font-size: 2em;
+   line-height: 1em;
+   margin: 10px 0 0 0; 
+   padding: 25px 75px;
+   text-align: center;
+   text-transform: uppercase;
+   width: 186px;
+   -webkit-transition: background 0.1s ease-out 0s;
+   -moz-transition: background 0.1s ease-out 0s;
+   -o-transition: background 0.1s ease-out 0s;
+   transition: background 0.1s ease-out 0s;
+}
+
+a.cupid-green:hover{
+   cursor: pointer;
+   background:#e74b2c;
+}
+
+a.cupid-green:active {
+  
+}
+
+.opacity_transition{
+   -webkit-transition: opacity 0.1s ease-out 0s;
+   -moz-transition: opacity 0.1s ease-out 0s;
+   -o-transition: opacity 0.1s ease-out 0s;
+   transition: opacity 0.1s ease-out 0s;
+}
+
+.opacity_transition:hover{
+   opacity: 0.8;
+}
+
+#advantages_panel_div{
+   margin-top: 30px;
+}
+
+#advantages_table{
+   margin-bottom: 85px;
+   width: 100%;
+}
+
+#portfolio_panel_div{
+   margin-top: 36px;
+}
+
+#order_panel_div{
+   margin-top: 63px;
+}
+
+#prices_panel_div{
+   margin-top: 37px;
+}
+
+#portfolio_table{
+   background: rgba(0,0,0,0);
+   margin-bottom: 77px;
+   margin-left: auto; 
+   margin-right: auto; 
+   width: 98%; 
+}
+
+#prices_table{
+   background: rgba(0,0,0,0);
+   width: 100%;
+}
+
+#order_msg_div{
+   font-size: 1.7em;
+}
+
+#phone_input{
+   height: 40px;
+   margin-bottom: 45px;
+   margin-top: 10px;
+   width: 392px;
+}
+
+#send_contacts_a{
+   padding: 25px 65px;
+}
+
+#social_panel{
+   margin-bottom: 10px;
+}
+
+.social_img{
+   margin-left: 10px;
+   width: 50px;
+}
+
+#copyr_span{
+   font-size: 1.5em;
+}
+
+#footer_panel{
+   margin-top: 154px;
+}
+
+.prices_caption_div{
+   color: #555;
+   font-size: 2em;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+.prices_img{
+   width: 60%;
+}
+
+.pricetag{
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   background-color: #FDC04F; 
+   border-radius: 17px;
+   color: #333;
+   font-size: 2em;
+   height: 30px; 
+   line-height: 30px; 
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+.dark_bg_header{
+   color: #fff; 
+   font-size: 3em;
+}
+
+.advantages_table_td{
+   width: 200px;
+}
+
+.advantages_table_caption{
+   color: #000; 
+   font-size: 1.7em;
+}
+
+.white_bg_header{
+   color: #555; 
+   font-size: 3em;
+}
+
+.portfolio_img{
+   -webkit-box-shadow: rgba(0, 0, 0, 0.772549) -1px 0px 5px 1px;
+   -moz-box-shadow: rgba(0, 0, 0, 0.772549) -1px 0px 5px 1px;
+   box-shadow: rgba(0, 0, 0, 0.772549) -1px 0px 5px 1px;
+   width: 95%;
+}
+
+.portfolio_caption_td{
+   height: 50px;
+}
+
+.portfolio_caption_div{
+   color: #fff;
+   font-size: 1.7em;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:-10px !important;
+}
+
+.rounded_corners{
+   -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+   border-radius:8px;
+}
+
+.advantage_caption{
+   position: absolute; 
+   display: inline-block; 
+   opacity: 0;
+   color: #000; 
+   font-size: 1.7em; 
+   padding: 60px;
+}
+
+.advantage_caption:hover{
+   cursor: default;
+}
+
+#profit_caption{
+   top: 10px; 
+   left: 0px; 
+}
+
+#customers_caption{
+   top: 0px; 
+   left: 0px; 
+}
+
+#discount_caption{
+   top: 0px; 
+   left: 0px; 
+}
+
+#pro_caption{
+   top: 0px; 
+   left: 0px; 
+}
+
+.profit_container{
+   position: relative;
+}
+
+.portfolio_td:hover{
+   cursor:pointer;
+}
+
+@media (max-width:2880px){
+
+#welcome_div_smalltext{
+   font-size: 0.58em;
+}
+
+#content_div{
+   background: url(http://metateg.pro/img/bg.jpg); 
+   background-size: cover;
+   position: absolute;
+   text-align: center;
+   top: 0px;
+   width: 100%;
+   height: 1080px;
+}
+
+#content2_div{
+   color: #000;
+   padding: 30px 0 30px 0; 
+   position: absolute;
+   text-align: center;
+   top: 1111px;   
+   width: 100%;
+}
+
+#content3_div{
+   background: #e6e6e6;
+   color: #000;
+   height: 1123px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 1554px;
+   height: 400px;
+   width: 100%;
+}
+
+#content4_div{
+   background:#fff;
+   color: #555;
+   height: 1214px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 3098px;
+}
+   
+#welcome_div{
+   font-size: 5em; 
+   margin-bottom: 50px;
+   margin-top: 25%;
+}
+
+#content5_div{
+   background: url(http://metateg.pro/img/order.jpg); 
+   background-size: cover;
+   color: #555; 
+   height: 487px; 
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 2018px;
+   width: 100%;
+}
+
+.price_caption_left{
+   padding: 51px 67px 67px 0;
+   float: left;
+   text-align: left; 
+   font-size:1.7em; 
+   color:#555; 
+   width:61%
+}
+
+.price_caption_right{
+   padding: 50px 0px 67px 103px;
+   float: left;
+   text-align: left; 
+   font-size: 1.7em; 
+   color: #555; 
+   width: 61%
+}
+
+.price_img_right{
+   width: 22%;
+   float: right;
+}
+
+.price_img_left{
+   width: 22%;
+   float: left;
+}
+
+#price_landing_div{
+   margin-top: 10px;
+}
+
+#price_ecommerce_div{
+   margin-top: -5px;
+}
+
+#price_vip_div{
+   margin-top: -11px;
+}
+
+.portfolio_span{
+   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+   color: #222222;
+   display: inline-block;
+   font-size: 1.7em;
+   height: 50%;
+   left: 35px;
+   opacity: 0;
+   padding: 36% 5% 0;
+   position: absolute;
+   top: 24px;
+   width: 74%;
+   -webkit-transition: opacity 0.1s ease-out 0s;
+   -moz-transition: opacity 0.1s ease-out 0s;
+   -o-transition: opacity 0.1s ease-out 0s;
+   transition: opacity 0.1s ease-out 0s;
+}
+
+.portfolio_span:hover{
+   opacity:1;
+}
+
+#prices_hint{
+   position: absolute;
+   top: 4395px;
+}
+
+}
+
+@media (max-width:2560px){
+
+#welcome_div_smalltext{
+   font-size: 0.58em;
+}
+
+#content_div{
+   background: url(http://metateg.pro/img/bg.jpg); 
+   background-size: cover;
+   position: absolute;
+   text-align: center;
+   top: 0px;
+   width: 100%;
+   height: 1080px;
+}
+
+#content2_div{
+   color: #000;
+   padding: 30px 0 30px 0; 
+   position: absolute;
+   text-align: center;
+   top: 1111px;   
+   width: 100%;
+}
+
+#content3_div{
+   background: #e6e6e6;
+   color: #000;
+   height: 1123px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 1554px;
+   height: 400px;
+   width: 100%;
+}
+
+#content4_div{
+   background:#fff;
+   color: #555;
+   height: 1214px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 3098px;
+}
+   
+#welcome_div{
+   font-size: 5em; 
+   margin-bottom: 50px;
+   margin-top: 25%;
+}
+
+#content5_div{
+   background: url(http://metateg.pro/img/order.jpg); 
+   background-size: cover;
+   color: #555; 
+   height: 487px; 
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 2018px;
+   width: 100%;
+}
+
+.price_caption_left{
+   padding: 51px 67px 67px 0;
+   float: left;
+   text-align: left; 
+   font-size:1.7em; 
+   color:#555; 
+   width:61%
+}
+
+.price_caption_right{
+   padding: 50px 0px 67px 103px;
+   float: left;
+   text-align: left; 
+   font-size: 1.7em; 
+   color: #555; 
+   width: 61%
+}
+
+.price_img_right{
+   width: 22%;
+   float: right;
+}
+
+.price_img_left{
+   width: 22%;
+   float: left;
+}
+
+#price_landing_div{
+   margin-top: 10px;
+}
+
+#price_ecommerce_div{
+   margin-top: -5px;
+}
+
+#price_vip_div{
+   margin-top: -11px;
+}
+
+.portfolio_span{
+   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+   color: #222222;
+   display: inline-block;
+   font-size: 1.7em;
+   height: 50%;
+   left: 35px;
+   opacity: 0;
+   padding: 36% 5% 0;
+   position: absolute;
+   top: 24px;
+   width: 74%;
+   -webkit-transition: opacity 0.1s ease-out 0s;
+   -moz-transition: opacity 0.1s ease-out 0s;
+   -o-transition: opacity 0.1s ease-out 0s;
+   transition: opacity 0.1s ease-out 0s;
+}
+
+.portfolio_span:hover{
+   opacity:1;
+}
+
+#prices_hint{
+   position: absolute;
+   top: 4395px;
+}
+
+}
+
+@media (max-width:1920px){
+
+#welcome_div_smalltext{
+   font-size: 0.58em;
+}
+
+#content_div{
+   background: url(http://metateg.pro/img/bg.jpg); 
+   background-size: cover;
+   position: absolute;
+   text-align: center;
+   top: 0px;
+   width: 100%;
+   height: 1080px;
+}
+
+#content2_div{
+   color: #000;
+   padding: 30px 0 30px 0; 
+   position: absolute;
+   text-align: center;
+   top: 1111px;   
+   width: 100%;
+}
+
+#content3_div{
+   background: #e6e6e6;
+   color: #000;
+   height: 1123px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 1554px;
+   height: 400px;
+   width: 100%;
+}
+
+#content4_div{
+   background:#fff;
+   color: #555;
+   height: 1214px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 3098px;
+}
+   
+#welcome_div{
+   font-size: 5em; 
+   margin-bottom: 50px;
+   margin-top: 25%;
+}
+
+#content5_div{
+   background: url(http://metateg.pro/img/order.jpg); 
+   background-size: cover;
+   color: #555; 
+   height: 487px; 
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 2018px;
+   width: 100%;
+}
+
+.price_caption_left{
+   padding: 51px 67px 67px 0;
+   float: left;
+   text-align: left; 
+   font-size:1.7em; 
+   color:#555; 
+   width:61%
+}
+
+.price_caption_right{
+   padding: 50px 0px 67px 103px;
+   float: left;
+   text-align: left; 
+   font-size: 1.7em; 
+   color: #555; 
+   width: 61%
+}
+
+.price_img_right{
+   width: 22%;
+   float: right;
+}
+
+.price_img_left{
+   width: 22%;
+   float: left;
+}
+
+#price_landing_div{
+   margin-top: 10px;
+}
+
+#price_ecommerce_div{
+   margin-top: -5px;
+}
+
+#price_vip_div{
+   margin-top: -11px;
+}
+
+.portfolio_span{
+   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+   color: #222222;
+   display: inline-block;
+   font-size: 1.7em;
+   height: 50%;
+   left: 35px;
+   opacity: 0;
+   padding: 36% 5% 0;
+   position: absolute;
+   top: 24px;
+   width: 74%;
+   -webkit-transition: opacity 0.1s ease-out 0s;
+   -moz-transition: opacity 0.1s ease-out 0s;
+   -o-transition: opacity 0.1s ease-out 0s;
+   transition: opacity 0.1s ease-out 0s;
+}
+
+.portfolio_span:hover{
+   opacity:1;
+}
+
+#prices_hint{
+   position: absolute;
+   top: 4395px;
+}
+
+}
+
+@media (max-width:1366px){
+#welcome_div_smalltext{
+   font-size: 0.58em;
+}
+   
+#content_div{
+   background: url(http://metateg.pro/img/bg.jpg); 
+   background-size: cover;
+   position: absolute;
+   text-align: center;
+   top: 0px;
+   width: 100%;
+   height: 719px;
+}
+
+#content2_div{
+   color: #000;
+   padding: 30px 0 30px 0; 
+   position: absolute;
+   text-align: center;
+   top: 750px;   
+   width: 100%;
+}
+
+#content3_div{
+   background: #e6e6e6;
+   color: #000;
+   height: 1123px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 1154px;
+   height: 400px;
+   width: 100%;
+}
+
+#welcome_div{
+   font-size: 4.7em; 
+   margin-bottom: 50px;
+   margin-top: 25%;
+}
+
+#content5_div{
+   background: url(http://metateg.pro/img/order.jpg); 
+   background-size: cover;
+   color: #555; 
+   height: 487px; 
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 1640px;
+   width: 100%;
+}
+
+.price_caption_left{
+   padding: 26px 67px 67px 0;
+   float: left;
+   text-align: left; 
+   font-size:1.7em; 
+   color:#555; 
+   width:61%
+}
+
+.price_caption_right{
+   padding: 28px 0px 67px 103px;
+   float: left;
+   text-align: left; 
+   font-size: 1.7em; 
+   color: #555; 
+   width: 61%
+}
+
+.price_img_right{
+   width: 30%;
+   float: right;
+}
+
+.price_img_left{
+   width: 30%;
+   float: left;
+}
+
+#price_landing_div{
+   margin-top: 10px;
+}
+
+#price_ecommerce_div{
+   margin-top: -5px;
+}
+
+#price_vip_div{
+   margin-top: -11px;
+}
+
+.portfolio_span{
+   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+   color: #222222;
+   display: inline-block;
+   font-size: 1.7em;
+   height: 50%;
+   left: 35px;
+   opacity: 0;
+   padding: 36% 5% 0;
+   position: absolute;
+   top: 24px;
+   width: 74%;
+   -webkit-transition: opacity 0.1s ease-out 0s;
+   -moz-transition: opacity 0.1s ease-out 0s;
+   -o-transition: opacity 0.1s ease-out 0s;
+   transition: opacity 0.1s ease-out 0s;
+}
+
+.portfolio_span:hover{
+   opacity:1;
+}
+
+#prices_hint{
+   position: absolute;
+   top: 3734px;
+}
+
+}
+
+@media (max-width:1280px){
+
+#welcome_div_smalltext{
+   font-size: 0.58em;
+}
+
+#content_div{
+   background: url(http://metateg.pro/img/bg.jpg); 
+   background-size: cover;
+   position: absolute;
+   text-align: center;
+   top: 0px;
+   width: 100%;
+   height: 719px;
+}
+
+#content2_div{
+   color: #000;
+   padding: 30px 0 30px 0; 
+   position: absolute;
+   text-align: center;
+   top: 750px;   
+   width: 100%;
+}
+
+#content3_div{
+   background: #e6e6e6;
+   color: #000;
+   height: 1123px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 1154px;
+   height: 400px;
+   width: 100%;
+}
+
+#content4_div{
+   background:#fff;
+   color: #555;
+   height: 1600px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 2341px;
+}
+
+#welcome_div{
+   font-size: 4.4em; 
+   margin-bottom: 50px;
+   margin-top: 25%;
+}
+
+#content5_div{
+   background: url(http://metateg.pro/img/order.jpg); 
+   background-size: cover;
+   color: #555; 
+   height: 487px; 
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   width: 100%;
+}
+
+.price_caption_left{
+   padding: 26px 67px 67px 0;
+   float: left;
+   text-align: left; 
+   font-size:1.7em; 
+   color:#555; 
+   width:60%
+}
+
+.price_caption_right{
+   padding: 28px 0px 67px 103px;
+   float: left;
+   text-align: left; 
+   font-size: 1.7em; 
+   color: #555; 
+   width: 60%
+}
+
+.price_img_right{
+   width: 30%;
+   float: right;
+}
+
+.price_img_left{
+   width: 30%;
+   float: left;
+}
+
+#price_landing_div{
+   margin-top: 16px;
+}
+
+#price_ecommerce_div{
+   margin-top: 13px;
+}
+
+#price_vip_div{
+   margin-top: 9px;
+}
+
+#price_homepage_div{
+   margin-top: 10px;
+}
+
+.portfolio_span{
+   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+   color: #222222;
+   display: inline-block;
+   font-size: 1.7em;
+   height: 50%;
+   left: 32px;
+   opacity: 0;
+   padding: 36% 5% 0;
+   position: absolute;
+   top: 23px;
+   width: 74%;
+   -webkit-transition: opacity 0.1s ease-out 0s;
+   -moz-transition: opacity 0.1s ease-out 0s;
+   -o-transition: opacity 0.1s ease-out 0s;
+   transition: opacity 0.1s ease-out 0s;
+}
+
+.portfolio_span:hover{
+   opacity:1;
+}
+
+#prices_hint{
+   position: absolute;
+   top: 3734px;
+}
+
+}
+
+@media (max-width:1024px){
+
+#welcome_div_smalltext{
+   font-size: 0.58em;
+}
+
+#content_div{
+   background: url(http://metateg.pro/img/bg.jpg); 
+   background-size: cover;
+   position: absolute;
+   text-align: center;
+   top: 0px;
+   width: 100%;
+   height: 719px;
+}
+
+#content2_div{
+   color: #000;
+   padding: 30px 0 30px 0; 
+   position: absolute;
+   text-align: center;
+   top: 750px;   
+   width: 100%;
+}
+
+#content3_div{
+   background: #e6e6e6;
+   color: #000;
+   height: 1123px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 1154px;
+   height: 400px;
+   width: 100%;
+}
+
+#content4_div{
+   background:#fff;
+   color: #555;
+   height: 1600px;
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   top: 2186px;
+}
+
+#welcome_div{
+   font-size: 3.4em; 
+   margin-bottom: 50px;
+   margin-top: 35%;
+}
+
+#content5_div{
+   background: url(http://metateg.pro/img/order.jpg); 
+   background-size: cover;
+   color: #555; 
+   height: 487px; 
+   padding: 63px 0 30px 0; 
+   position: absolute; 
+   text-align: center;
+   width: 100%;
+}
+
+.price_caption_left{
+   padding: 26px 67px 67px 0;
+   float: left;
+   text-align: left; 
+   font-size:1.7em; 
+   color:#555; 
+   width:59%
+}
+
+.price_caption_right{
+   padding: 28px 0px 67px 78px;
+   float: left;
+   text-align: left; 
+   font-size: 1.7em; 
+   color: #555; 
+   width: 59%
+}
+
+.price_img_right{
+   width: 30%;
+   float: right;
+   margin-top: 57px;
+}
+
+.price_img_left{
+   width: 30%;
+   float: left;
+   margin-top: 57px;
+}
+
+#price_landing_div{
+   margin-top: 68px;
+}
+
+#price_vip_div{
+   margin-top: 36px;
+}
+
+#price_homepage_div{
+   margin-top: 57px;
+}
+
+#price_ecommerce_div{
+   margin-top: 57px;
+}
+
+.portfolio_span{
+   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+   color: #222222;
+   display: inline-block;
+   font-size: 1.7em;
+   height: 50%;
+   left: 25px;
+   opacity: 0;
+   padding: 36% 5% 0;
+   position: absolute;
+   top: 17px;
+   width: 74%;
+   -webkit-transition: opacity 0.1s ease-out 0s;
+   -moz-transition: opacity 0.1s ease-out 0s;
+   -o-transition: opacity 0.1s ease-out 0s;
+   transition: opacity 0.1s ease-out 0s;
+}
+
+.portfolio_span:hover{
+   opacity:1;
+}
+
+#prices_hint{
+   position: absolute;
+   top: 3734px;
+}
+
+}
+
+.price_caption_title{
+   font-size: 1.3em; 
+   color: #555;
+   width: 100%; 
+   text-align: center
+}
+
+.bottom_arrow_div{
+   width: 100%; 
+   text-align: center;
+   margin-top:-50px;
+   display:none;
+   opacity:0;
+}
+
+.arrow_span_black{
+   color: #000;
+   font-size: 1.7em;
+   opacity:0.7;
+}
+
+.arrow_span_white{
+   color: #fff;
+   font-size: 1.7em;
+   opacity:0.7;
+}
+
+.arrow_img{
+   width: 50px;
+   opacity: 0.7;
+   margin-top: 5px;
+}
+
+/* ################################ Pagination code ###################################### */
+
+.active{
+   color:#fff !important;
+}
+
+.disabled{
+   background: #eee none repeat scroll 0 0 !important;
+    color: #333 !important;
+}
+
+.disabled:hover{
+   opacity:1 !important;
+   cursor:default !important;
+   
+}
+
+.pagination {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+ul.pagination {
+  text-align: center;
+  display: block;
+  padding: 0;
+}
+
+ul.pagination li{
+   display: inline-block;
+   margin-right: 0px;
+}
+
+ul.pagination li a {
+   background-color: #fff;
+   border-radius: 3px !important;
+   color: #2B587A;
+   float: left;
+   font-size: 0.8em;
+   line-height: 1.5em;
+   padding: 6px 12px;
+   text-decoration: none;
+}
+
+.caption_msg {
+    color: #aaa !important;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}

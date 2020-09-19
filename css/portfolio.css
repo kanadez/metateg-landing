@@ -1,0 +1,25 @@
+#content_div{
+   background: url(https://metateg.pro/img/works.jpg); 
+   background-size: cover;
+   position: relative;
+}
+
+#content3_div{
+   background: #fff;
+   height: auto;
+   position: relative;
+   top: 0;
+   margin-bottom: -111px;
+}
+
+#content5_div{
+   position:relative;
+   top: 0;
+}
+
+#welcome_div {
+   font-size: 5em;
+   margin-bottom: 50px;
+   padding-top:25%;
+   margin-top:0;
+}

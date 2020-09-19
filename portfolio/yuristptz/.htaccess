@@ -1,0 +1,21 @@
+ErrorDocument 404 /404.php
+
+# Редирект с http на https создан автоматически при заказе бесплатного ssl-сертификата
+RewriteEngine On
+#RewriteCond %{SERVER_PORT} !^443$
+#RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+# Конец редиректа
+
+RewriteCond %{HTTP_HOST} ^www.xn--d1aiiay2b0ch\.xn--p1ai$ [NC]
+RewriteRule ^(.*)$ http://xn--d1aiiay2b0ch.xn--p1ai/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} (.*)
+RewriteCond %{REQUEST_URI} /$ [NC]
+RewriteRule ^(.*)(/)$ $1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^panel panel.php [L]
+#RewriteRule ^views/([a-z0-9\-]+)\.html  views.php?stylesheet=$1 [L]
+RewriteRule ^api/([a-z0-9]+)/(.*)\.(xml|json) api.php?controller=$1&method=$2&format=$3&%{QUERY_STRING} [L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

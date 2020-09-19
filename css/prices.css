@@ -1,0 +1,33 @@
+#content_div{
+   background: url(https://metateg.pro/img/feedback.jpg); 
+   background-size: cover;
+   position: relative;
+}
+
+#content4_div{
+    background: #fff;
+    position: relative;
+    top: 0;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content5_div{
+   position:relative;
+   top: 100px;
+   clear: both;
+}
+
+#welcome_div {
+   font-size: 5em;
+   margin-bottom: 50px;
+   padding-top:25%;
+   margin-top:0;
+}
+
+.order_link{
+    color: #2b587a;
+    font-weight:bold;
+    font-size:19px;
+}
